@@ -1,0 +1,19 @@
+name: SM-J600FN
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: aarch64-linux-android29
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: configure
+      run: CC=aarch64-linux-android29-clang ./configure --disable-dependency-tracking --prefix=/system --libdir=/system/lib --sbindir=/system/bin --disable-rpath --disable-rpath-hack --host=aarch64-linux-android29 ac_cv_header_glob_h=no ac_cv_header_pwd_h=no --prefix=/system --datarootdir=/system/usr/share --disable-libmagic --enable-utf8 --with-wordbounds --disable-nls --enable-shared --enable-static --libexecdir=/system/usr/libexec --includedir=/system/usr/include --cache-file=$PWD/../config.cache
+    - name: make
+      run: CC=aarch64-linux-android29-clang make
