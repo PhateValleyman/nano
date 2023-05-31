@@ -1,8 +1,8 @@
 name: SM-J600FN
 
 on:
-  workflow_run:
-    workflows: [ "SM-J600FN" ]
+  workflow_dispatch:
+
   push:
     branches: [ "master" ]
   pull_request:
