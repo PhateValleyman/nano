@@ -1,0 +1,8 @@
+[2024/09/03 11:21:34] GithubTracks INFO: get_tracks: user_name = PhateValleyman
+[2024/09/03 11:21:36] GithubTracks DEBUG: _get_from_repo: repo_name = nano
+[2024/09/03 11:21:37] GithubTracks ERROR: _get_from_repo: [nano] -> MagiskModuleError(nano is not a target magisk module repository)
+[2024/09/03 11:21:37] GithubTracks INFO: get_tracks: size = 0
+[2024/09/03 11:25:10] GithubTracks INFO: get_tracks: user_name = PhateValleyman
+[2024/09/03 11:25:12] GithubTracks DEBUG: _get_from_repo: repo_name = nano
+[2024/09/03 11:25:13] GithubTracks ERROR: _get_from_repo: [nano] -> MagiskModuleError(nano is not a target magisk module repository)
+[2024/09/03 11:25:13] GithubTracks INFO: get_tracks: size = 0
