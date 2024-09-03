@@ -1,0 +1,6 @@
+id=nano
+name=Nano for Android
+version=8.1
+versionCode=8100
+author=PhateValleyman <Jonas.Ned@outlook.com>
+description=Static arm64 nano binary for Android built with the NDK
