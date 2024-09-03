@@ -1,7 +1,0 @@
-{
-  "name": "nano",
-  "base_url": "https://github.com/PhateValleyman/nano/",
-  "max_num": 3,
-  "enable_log": true,
-  "log_dir": "log"
-}
