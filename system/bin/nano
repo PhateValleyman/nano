@@ -1,0 +1,12 @@
+#!/system/bin/sh
+# nano: wrapper to set up and run nano from terminal
+dir="$(cd "$(dirname "$0")"; pwd)";
+if [ "$1" == "--term" ]; then
+	term=$2;
+	shift 2;
+else
+	term=xterm-256color;
+fi;
+clear;
+[ -e "$(which resize 2>&1)" ] && resize >/dev/null;
+TERMINFO=$dir/../usr/share/terminfo TERM=$term $dir/nano.bin --rcfile=$dir/../etc/nanorc "$@";
