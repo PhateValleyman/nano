@@ -1,0 +1,10 @@
+{
+  "id": "nano",
+  "enable": true,
+  "verified": false,
+  "update_to": "https://github.com/PhateValleyman/nano.git",
+  "source": "https://github.com/PhateValleyman/nano.git",
+  "support": "https://github.com/PhateValleyman/nano/issues",
+  "readme": "https://raw.githubusercontent.com/PhateValleyman/nano/master/README.md",
+  "added": 1725355557.390925
+}
